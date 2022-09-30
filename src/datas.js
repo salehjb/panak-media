@@ -9,7 +9,7 @@ export const LEFT_BAR_ITEMS = [
   { text: "Apps", icon: Icons.TabletMac, href: "/apps" },
   { text: "Collections", icon: Icons.Collections, href: "/collections" },
   { text: "Market Place", icon: Icons.Storefront, href: "/market-place" },
-  { text: "Setting", icon: Icons.Settings, href: "/setting" },
+  { text: "Settings", icon: Icons.Settings, href: "/settings" },
 ];
 
 export const POSTS = [

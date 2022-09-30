@@ -28,7 +28,10 @@ function Rightbar() {
       display: "flex",
       flexDirection: "column",
       alignItems: "flex-start"
-    }
+    },
+    imageList: {
+      borderRadius: "5px"
+    },
   };
 
   return (
@@ -48,7 +51,7 @@ function Rightbar() {
           <Typography variant="h6" gutterBottom>
             Gallery
           </Typography>
-          <ImageList rowHeight={160} sx={styles.imageList} cols={2}>
+          <ImageList rowHeight={200} sx={styles.imageList} cols={2} variant="quilted">
             {IMAGE_LIST.map((item, index) => (
               <ImageListItem key={index}>
                 <img src={item.image} alt={item.title} />
